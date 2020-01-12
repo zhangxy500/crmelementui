@@ -10,7 +10,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 //使用Vue.use(element),就可以在全局使用elementui了
 Vue.use(element)
 
-axios.defaults.baseURL = 'http://localhost:8081/news/';
+axios.defaults.baseURL = 'http://localhost:8081/crm/';
 Vue.prototype.$axios = axios;
 
 //获取当前时间（XXXX-XX-XX）
