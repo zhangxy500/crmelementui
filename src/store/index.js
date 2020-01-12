@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+  	//状态数据的管理模式，可能用于分页。
   },
   mutations: {
   },
