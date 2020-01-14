@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '../views/Login.vue'
 import Admin from '../views/Admin.vue'
+
 Vue.use(VueRouter)
 
 const routes = [{
@@ -19,6 +20,30 @@ const routes = [{
 		path: '/admin',
 		name: 'Admin',
 		component: Admin
+		/*children:[
+		{
+			path:'/admin',
+			name:'Welcome',
+			component: HelloWorld
+		},{
+			path:'/admin/adduser',
+			name:'User',
+			component: User
+		},{
+			path:'/admin/updateuser',
+			name:'User',
+			component: User
+		},{
+			path:'/admin/deleteuser',
+			name:'User',
+			component: User
+		},{
+			path:'/admin/selectuser',
+			name:'User',
+			component: User
+		}
+		
+		]*/
 	}
 ]
 
