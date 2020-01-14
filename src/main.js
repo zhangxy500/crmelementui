@@ -170,7 +170,7 @@ router.beforeEach(function(to,from,next){
 		'/admin/addNews',
 		'/admin/updateNews'
 	];
-	let users = sessionStorage.getItem('users');
+	let users = sessionStorage.getItem('sysUser');
 	if(nextRoute.indexOf(to.path)>=0){
 		if(users==null){
 			router.push('/login');
